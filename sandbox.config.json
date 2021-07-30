@@ -6,6 +6,6 @@
   "container": {
     "node": 14,
     "port": 1337,
-    "startScript": "codesandbox"
+    "startScript": "develop"
   }
 }

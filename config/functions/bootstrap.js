@@ -8,4 +8,6 @@
  * run jobs, or perform some special logic.
  */
 
-module.exports = async () => {};
+ module.exports = async () => {
+    await strapi.config.functions.setup();
+};

@@ -9,9 +9,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js",
-    "seed": "node scripts/seed.js",
-    "codesandbox": "yarn seed && strapi develop"
+    "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -41,9 +39,7 @@
     "unzip-stream": "^0.3.0",
     "uuid-v4": "^0.1.0"
   },
-  "strapi": {
-    "uuid": "FOODADVISOR-LOCAL-8822bd66-77b5-4fbc-9adf-3d9d8a215b53"
-  },
+  "strapi": {},
   "engines": {
     "node": ">= 10.0.0",
     "npm": ">= 6.0.0"
