@@ -1,6 +1,4 @@
-# FoodAdvisor - API
-
-![FoodAdvisor](../foodadvisor.png)
+# Strapi test
 
 Welcome to FoodAdvisor, the official Strapi demo application.
 
